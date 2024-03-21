@@ -1,4 +1,4 @@
-require Rails.root.join("config/autogradeConfig.rb")
+require Rails.root.join("config/autogradeConfig.rb").to_s
 
 RSpec.shared_context "tango mock" do
   before :each do
